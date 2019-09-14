@@ -21,6 +21,8 @@ export class AppComponent {
     if (this.twoLetters.value.toString().length == 2) {
       this.backendService.findTopTenWords(this.twoLetters.value)
         .subscribe(array => this.words = array)
+    } else {
+      this.words = [];
     }
   }
 }
