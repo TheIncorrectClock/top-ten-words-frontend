@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {BackendService} from "./backend.service";
+import {BackendService} from "./services/backend.service";
 import {HttpClientModule} from "@angular/common/http";
 import { WordsTableComponent } from './words-table/words-table.component';
 
